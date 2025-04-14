@@ -807,6 +807,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: .9s;
 }
 
+.skill-icon {
+  font-size: 24px; /* gedein ikon */
+  margin-right: 10px; /* jarak antara ikon dan teks */
+  vertical-align: middle; /* biar sejajar dengan teks */
+}
+
 /* Facts Section
 --------------------------------*/
 #facts {
