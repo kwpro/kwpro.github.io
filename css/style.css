@@ -263,6 +263,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #18d26e;
 }
 
+.clients-carousel img {
+  height: 100px; /* atur sesuai kebutuhan */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
