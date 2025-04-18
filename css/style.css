@@ -1468,3 +1468,62 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+
+/* Additional
+--------------------------------*/
+/* Media query untuk layar kecil (hingga 600px) */
+@media (max-width: 600px) {
+  .skill {
+    font-size: 10px; /* Ukuran font lebih kecil */
+  }
+
+  .skill-icon {
+    font-size: 12px;
+    margin-right: 3px;
+  }
+
+  .val {
+    font-size: 10px;
+    margin-left: 3px;
+  }
+}
+
+/* Media query untuk layar yang lebih kecil lagi (misalnya, hingga 400px) */
+@media (max-width: 400px) {
+  .skill {
+    font-size: 9px; /* Ukuran font lebih kecil lagi */
+  }
+
+  .skill-icon {
+    font-size: 11px;
+    margin-right: 2px;
+  }
+
+  .val {
+    font-size: 9px;
+    margin-left: 2px;
+  }
+}
+
+.skill > span:first-child { /* Targetkan span yang berisi teks skill */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Anda mungkin perlu menyesuaikan max-width */
+  max-width: 65%; /* Coba perkecil persentase */
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.skill-icon {
+  margin-right: 5px;
+}
+
+.val {
+  margin-left: auto;
+}
